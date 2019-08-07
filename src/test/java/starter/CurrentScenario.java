@@ -7,9 +7,9 @@ import cucumber.api.CucumberOptions;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions (
         plugin = {"pretty"},
-        tags = {},
-        glue = "starter.tfl.stepdefinitions",
-        features = "classpath:features"
+        tags = {"@current"},
+        glue = "net.serenitybdd.excercises.lean.stepdefinitions",
+        features = "src/test/resource/features"
 )
 public class CurrentScenario {
 }
