@@ -13,7 +13,7 @@ Feature: View service status
 
     Scenario: Should see the list of available services for a future date
         Given Trevor is in the "Status update" section
-        When he counsult the line statuses for this weekend
+        When he consults the line statuses for this weekend
         Then he should see the following lines:
             |   Central |
             |   Circle  |
