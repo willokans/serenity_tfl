@@ -13,8 +13,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>2.0.60</serenity.version>
-        <cucumber.version>4.7.0</cucumber.version>
-        <serenity.cucumber.version>1.0.6</serenity.cucumber.version>
+        <cucumber.version>4.2.0</cucumber.version>
+        <serenity.cucumber.version>1.9.5</serenity.cucumber.version>
         <tags></tags>
         <parallel.tests>4</parallel.tests>
         <serenity.maven.version>2.0.40</serenity.maven.version>
@@ -74,11 +74,12 @@
             <artifactId>serenity-screenplay-webdriver</artifactId>
             <version>${serenity.version}</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>net.serenity-bbd</groupId>-->
-            <!--<artifactId>serenity-cucumber4</artifactId>-->
-            <!--<version>${serenity.cucumber.version}</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-cucumber</artifactId>
+            <version>${serenity.cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
 
         <dependency>
             <groupId>junit</groupId>
