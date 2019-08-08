@@ -2,7 +2,6 @@ package net.serenitybdd.excercises.lean.navigation;
 
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.core.steps.UIInteractionSteps;
-import net.serenitybdd.excercises.lean.TFLHomePage.TFLHomePage;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.By;
 

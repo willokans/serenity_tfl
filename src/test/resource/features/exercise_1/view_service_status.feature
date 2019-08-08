@@ -7,9 +7,9 @@ Feature: View service status
     Given Trevor is in the "Status update" section
 #    When he consults the line statuses
 #    Then he should see the following lines:
-#        | Central   |
-#        | Circle    |
-#        | District  |
+        | Central   |
+        | Circle    |
+        | District  |
 #
 #    Scenario: Should see the list of available services for a future date
 #        Given Trevor is in the "Status update" section

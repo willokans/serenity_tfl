@@ -1,4 +1,4 @@
-package net.serenitybdd.excercises.lean.TFLHomePage;
+package net.serenitybdd.excercises.lean.navigation;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
